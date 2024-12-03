@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    height: 300vh; /* Simulate scrollable content */
+    overflow-y: scroll;
+    background-color: #121212;
+  }
+  canvas {
+    display: block;
+    position: fixed; /* Fix canvas to stay visible during scroll */
+    top: 0;
+    left: 0;
+  }
+  
